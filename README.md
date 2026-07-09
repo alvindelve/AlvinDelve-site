@@ -1,1 +1,1 @@
-Upload all files in this folder to GitHub: index.html, style.css, hero.jpg, training-outside.jpg, training-group.jpg, training-stretch.jpg.
+Upload everything inside this ZIP to GitHub: index.html, style.css, hero.jpg, training-outside.jpg, training-group.jpg, training-stretch.jpg.
