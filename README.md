@@ -1,13 +1,1 @@
-# Alvin Delve Static Website
-
-iPad-friendly static website.
-
-Netlify settings:
-- Build command: leave blank
-- Publish directory: leave blank or /
-- No package.json needed
-
-Upload these files to GitHub:
-- index.html
-- style.css
-- README.md
+Upload all files in this folder to GitHub: index.html, style.css, hero.jpg, training-outside.jpg, training-group.jpg, training-stretch.jpg.
