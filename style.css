@@ -107,7 +107,7 @@ body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--tex
   .nav{display:none}.site-header{justify-content:center}.hero{padding:44px 6% 0}.hero h1{letter-spacing:3px}.eyebrow{letter-spacing:4px}.hero-actions{grid-template-columns:1fr}.btn.wide{grid-column:auto}.identity-strip,.logo-row,.contact-bar,.cards{grid-template-columns:1fr}.identity-strip article,.logo-row span,.contact-bar a{border-right:none;border-bottom:1px solid rgba(229,185,72,.2)}.training-gallery{grid-template-columns:1fr}.training-gallery img:nth-child(3){grid-column:auto;height:250px}.section{padding:70px 6%}
 }
 
-/* MASTER SITE VERSION: 2026.07.10-bulletproof-1 */
+/* MASTER SITE VERSION: 2026.07.10-bulletproof-2 */
 .logo-image-link{display:flex;align-items:center;width:190px;height:66px;text-decoration:none}
 .site-logo-image{width:178px;height:62px;display:block;object-fit:contain;object-position:left center}
 .footer-logo-image-wrap{display:flex;justify-content:center;margin-bottom:18px}
@@ -129,3 +129,31 @@ body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--tex
 .x-icon{font-size:1.22rem;font-weight:900}
 .linkedin-icon{border:1.5px solid var(--gold2);border-radius:4px;font-size:.82rem;font-weight:1000;letter-spacing:-1px}
 @media(max-width:760px){.logo-image-link{width:145px}.site-logo-image{width:138px;height:54px}.contact-item{justify-content:flex-start;padding-left:18px!important;white-space:normal}}
+
+/* MASTER SITE VERSION: 2026.07.10-bulletproof-2 */
+.hero-actions{grid-template-columns:1fr 1fr}
+.identity-strip{grid-template-columns:repeat(3,1fr)}
+.identity-strip article{justify-content:center}
+.brand-icon{overflow:hidden;background:#f5f1e8;padding:5px}
+.brand-icon img{width:100%;height:100%;display:block;object-fit:cover;border-radius:50%}
+.fitness{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:64px;align-items:center}
+.fitness-copy{max-width:620px}
+.training-gallery{display:grid;grid-template-columns:1fr;gap:16px;align-content:center}
+.training-gallery .gallery-feature{width:100%;height:390px;object-fit:cover;border-radius:20px;box-shadow:0 18px 45px rgba(0,0,0,.18)}
+.gallery-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.training-gallery .gallery-pair img{width:100%;height:230px;object-fit:cover;border-radius:20px;box-shadow:0 18px 45px rgba(0,0,0,.16)}
+.fitness-book{width:max-content;margin-top:8px}
+@media(max-width:1100px){
+  .fitness{grid-template-columns:1fr;gap:40px}
+  .fitness-copy{max-width:none}
+  .identity-strip{grid-template-columns:1fr 1fr 1fr}
+}
+@media(max-width:760px){
+  .hero-actions{grid-template-columns:1fr}
+  .identity-strip{grid-template-columns:1fr}
+  .identity-strip article{justify-content:flex-start}
+  .training-gallery .gallery-feature{height:300px}
+  .gallery-pair{grid-template-columns:1fr}
+  .training-gallery .gallery-pair img{height:250px}
+  .fitness-book{width:100%}
+}
