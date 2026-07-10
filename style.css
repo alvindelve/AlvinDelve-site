@@ -1,189 +1,131 @@
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--black:#030303;--charcoal:#101217;--white:#fff;--muted:#b8bbc4;--gold:#c89b3c;--gold2:#edc978;--line:rgba(255,255,255,.12)}
-html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;background:var(--black);color:var(--white)}
-.header{position:sticky;top:0;z-index:20;height:74px;display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:rgba(0,0,0,.88);border-bottom:1px solid var(--line);backdrop-filter:blur(16px)}
-.brand{text-decoration:none;text-transform:uppercase;letter-spacing:4px;font-weight:900;color:white}.brand span{color:var(--gold);font-size:1.8rem;margin-right:10px;letter-spacing:-2px}
-.header nav{display:flex;gap:26px}.header nav a{text-decoration:none;text-transform:uppercase;font-size:.78rem;font-weight:900;color:var(--muted)}.header nav a:hover{color:var(--gold)}
-.hero{min-height:90vh;display:grid;grid-template-columns:1fr 1.2fr;align-items:center;gap:52px;padding:80px 6%;background:linear-gradient(90deg,rgba(0,0,0,.98),rgba(0,0,0,.78),rgba(0,0,0,.95)),radial-gradient(circle at 75% 28%,rgba(200,155,60,.22),transparent 38%);border-bottom:1px solid rgba(200,155,60,.5)}
-.hero-photo{min-height:520px;border-radius:18px;overflow:hidden;background:linear-gradient(135deg,#202633,#090909);box-shadow:0 35px 90px rgba(0,0,0,.6);border:1px solid var(--line)}
-.hero-photo div,.portrait-placeholder,.fitness-photo{height:100%;min-height:inherit;display:grid;place-items:center;text-align:center;border:1px dashed rgba(255,255,255,.25);color:rgba(255,255,255,.58);text-transform:uppercase;letter-spacing:1px;font-weight:900;padding:24px}
-.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:4px;font-size:.76rem;font-weight:900;margin-bottom:18px}.hero h1{font-size:clamp(4rem,9vw,8.5rem);line-height:.86;letter-spacing:8px;text-transform:uppercase}.hero-copy{max-width:680px;color:#ededed;font-size:1.14rem;line-height:1.75;margin-top:22px}
-.button-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:4px;text-decoration:none;text-transform:uppercase;font-weight:900;letter-spacing:.6px}.gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111}.outline{border:1px solid var(--gold);color:white}.text{color:var(--gold);padding-left:0}
-.seen-on{display:flex;align-items:center;justify-content:center;gap:36px;flex-wrap:wrap;padding:26px 6%;background:#050505;border-top:1px solid var(--line);border-bottom:1px solid rgba(200,155,60,.3)}.seen-on p{color:var(--gold);text-transform:uppercase;letter-spacing:4px;font-size:.75rem;font-weight:900}.seen-on div{display:flex;gap:28px;flex-wrap:wrap;justify-content:center}.seen-on span{color:rgba(255,255,255,.68);text-transform:uppercase;letter-spacing:2px;font-weight:900;font-size:.8rem}
-.section{padding:90px 6%}.black{background:#050505}.center{text-align:center}.section-title{font-size:clamp(2.4rem,4vw,4.4rem);text-transform:uppercase;letter-spacing:4px;line-height:1.04;margin-bottom:18px}.section-intro{color:var(--muted);max-width:820px;margin:0 auto 36px;line-height:1.7}
-.highlight-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}.highlight-card{text-decoration:none;text-align:center;color:white}.thumb{min-height:168px;display:grid;place-items:center;border:1px solid rgba(200,155,60,.55);border-radius:12px;color:var(--gold2);background:linear-gradient(135deg,#1a1f2b,#464646);margin-bottom:12px;font-size:2rem}.highlight-card h3{text-transform:uppercase;font-size:.86rem;letter-spacing:1px}.highlight-card p{color:var(--muted);font-size:.84rem;margin-top:4px;line-height:1.5}
-.about{display:grid;grid-template-columns:.9fr 1.2fr;gap:70px;align-items:center;background:linear-gradient(90deg,#111319,#050505);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.portrait-block{min-height:380px}.signature{color:var(--gold);font-family:cursive;font-size:2.2rem;margin-top:16px}.body-copy{color:#d5d5d5;line-height:1.8;margin-bottom:18px;max-width:760px}
-.resume{background:#08090c}.resume-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:36px 0}.resume-card{padding:28px;border:1px solid var(--line);background:var(--charcoal);border-radius:16px}.resume-card h3{text-transform:uppercase;margin-bottom:10px;color:var(--gold)}.resume-card p{color:var(--muted);line-height:1.7}
-.fitness{background:#f5f1e8;color:#111;display:grid;grid-template-columns:1.1fr 1fr 1.2fr;gap:42px;align-items:center}.fitness .section-title{color:#111}.dark{color:#333}.fitness-photo{min-height:330px;color:rgba(0,0,0,.5);border-color:rgba(0,0,0,.18);border-radius:16px;background:#ded8cc}.service-list{display:grid;gap:22px;border-left:1px solid rgba(0,0,0,.16);padding-left:32px}.service-list h3{text-transform:uppercase;font-size:1rem}.service-list p{color:#555;line-height:1.6}
-.cta{padding:70px 6%;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;background:linear-gradient(135deg,var(--gold),var(--gold2))}.cta h2{color:#fff;font-size:clamp(2.3rem,4vw,4rem);text-transform:uppercase;letter-spacing:4px}.cta p{color:#fff;margin-top:12px;font-size:1.05rem;line-height:1.7}.contact-links{display:grid;gap:12px}.contact-links a,.contact-links span{display:flex;align-items:center;color:#111;background:rgba(255,255,255,.86);padding:14px;border-radius:8px;text-decoration:none;font-weight:800}
-.footer{text-align:center;padding:42px 6%;background:#030303;color:var(--muted);border-top:1px solid var(--line)}.footer-logo{color:var(--gold);font-size:3rem;font-weight:1000;margin-bottom:10px}
-@media(max-width:950px){.header nav{display:none}.hero,.about,.fitness,.cta{grid-template-columns:1fr}.highlight-grid{grid-template-columns:repeat(2,1fr)}.resume-grid{grid-template-columns:1fr}}@media(max-width:560px){.highlight-grid{grid-template-columns:1fr}.hero h1{letter-spacing:3px}.section-title{letter-spacing:2px}.seen-on{justify-content:flex-start}}
-
-/* Added Delve Into Fitness branding, training bio highlights, and aligned contact icons */
-.fitness-brand{
-  display:flex;
-  align-items:center;
-  gap:16px;
-  margin-bottom:20px;
+:root{
+  --bg:#22252b;
+  --bg2:#2d3036;
+  --panel:#1b1d22;
+  --panel2:#262930;
+  --text:#f6f6f3;
+  --muted:#c7c9cf;
+  --gold:#c59024;
+  --gold2:#e5b948;
+  --gold3:#f4d77d;
+  --line:rgba(229,185,72,.34);
 }
-.fitness-logo{
-  width:78px;
-  height:78px;
-  object-fit:cover;
-  object-position:center;
-  border-radius:50%;
-  border:2px solid #c59024;
-  background:#fff;
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+.site-header{
+  height:78px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 7%;position:sticky;top:0;z-index:20;
+  background:linear-gradient(180deg,rgba(34,37,43,.98),rgba(34,37,43,.9));
+  border-bottom:1px solid var(--line);backdrop-filter:blur(14px)
 }
-.fitness-subbrand{
-  margin-top:-12px;
-  color:#6f551f !important;
-  font-size:.78rem;
-  font-weight:900;
-  letter-spacing:1.8px;
-  text-transform:uppercase;
+.logo{position:relative;display:flex;align-items:center;justify-content:center;width:84px;height:56px;text-decoration:none;color:var(--gold2)}
+.logo:before,.logo:after{content:"";position:absolute;height:1px;background:var(--gold);top:50%;width:42px}
+.logo:before{right:90px}.logo:after{left:90px}
+.logo-a{font-size:3.2rem;font-weight:1000;letter-spacing:-8px;line-height:1;position:absolute;left:8px;color:var(--gold2);text-shadow:0 0 20px rgba(229,185,72,.25)}
+.logo-d{font-size:3.45rem;font-weight:1000;letter-spacing:-6px;line-height:1;position:absolute;right:0;color:transparent;-webkit-text-stroke:2px var(--gold2);text-shadow:0 0 20px rgba(229,185,72,.25)}
+.nav{display:flex;gap:34px}
+.nav a{text-decoration:none;text-transform:uppercase;color:#fff;font-size:.82rem;font-weight:900;letter-spacing:.6px}
+.nav a.active,.nav a:hover{color:var(--gold2);border-bottom:2px solid var(--gold2);padding-bottom:10px}
+.hero{
+  min-height:720px;display:grid;grid-template-columns:1fr 1.05fr;gap:40px;align-items:center;
+  padding:54px 7% 0;position:relative;overflow:hidden;
+  background:
+    radial-gradient(circle at 85% 35%, rgba(229,185,72,.16), transparent 32%),
+    linear-gradient(135deg,#24272e,#30333a 60%,#202329);
+  border-bottom:1px solid var(--line)
 }
-.fitness-lead{
-  font-size:1.05rem;
-  line-height:1.8;
-  margin-bottom:22px;
+.hero:after{
+  content:"";position:absolute;right:-120px;top:40px;width:620px;height:620px;
+  border:1px solid rgba(229,185,72,.16);transform:rotate(35deg);
+  box-shadow:0 0 80px rgba(229,185,72,.06)
 }
-.training-highlights{
-  display:grid;
-  gap:14px;
-  margin:22px 0 26px;
+.hero-copy{z-index:2;max-width:640px}
+.eyebrow{color:var(--gold2);text-transform:uppercase;letter-spacing:7px;font-size:.82rem;font-weight:1000;margin-bottom:22px}
+.hero h1{font-size:clamp(4.4rem,8vw,8.2rem);line-height:.86;text-transform:uppercase;letter-spacing:7px;text-shadow:0 18px 60px rgba(0,0,0,.45)}
+.hero-support{margin-top:26px;padding-left:18px;border-left:4px solid var(--gold2);font-size:clamp(1.25rem,2vw,1.75rem);font-weight:800;line-height:1.45;color:#f3f3ef;max-width:640px}
+.hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:540px;margin-top:28px}
+.btn{display:flex;align-items:center;justify-content:center;gap:14px;text-decoration:none;text-transform:uppercase;font-weight:1000;letter-spacing:1.7px;border-radius:8px;padding:16px 22px}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold3));color:#17191f}
+.btn-outline{color:#fff;border:1px solid var(--gold2);background:rgba(0,0,0,.12)}
+.btn.wide{grid-column:1/3}
+.btn:hover{transform:translateY(-2px)}
+.hero-photo-wrap{align-self:end;z-index:1;display:flex;justify-content:center}
+.hero-photo{
+  width:min(620px,100%);height:680px;object-fit:cover;object-position:center top;
+  filter:drop-shadow(0 35px 70px rgba(0,0,0,.45));
+  border-radius:26px 26px 0 0;
 }
-.training-highlights article{
-  padding:15px 0;
-  border-bottom:1px solid rgba(0,0,0,.12);
+.identity-strip{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+  padding:24px 7%;background:linear-gradient(180deg,#202329,#24272d);
+  border-bottom:1px solid var(--line)
 }
-.training-highlights article:last-child{border-bottom:none}
-.training-highlights h3{
-  margin-bottom:5px;
-  text-transform:uppercase;
-  font-size:.86rem;
-  letter-spacing:.8px;
-}
-.training-highlights p{
-  color:#4d4d4d !important;
-  line-height:1.6 !important;
-}
-.contact-bar{align-items:stretch}
-.contact-item{
-  min-height:58px;
-  display:flex !important;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  line-height:1.2;
-}
-.contact-icon{
-  width:24px;
-  height:24px;
-  min-width:24px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  color:var(--gold2);
-}
-.contact-icon svg{
-  width:22px;
-  height:22px;
-  fill:currentColor;
-}
-.x-icon{font-size:1.25rem;font-weight:900}
-.linkedin-icon{
-  border:1.5px solid var(--gold2);
-  border-radius:4px;
-  font-size:.82rem;
-  font-weight:1000;
-  letter-spacing:-1px;
-}
-@media(max-width:760px){
-  .contact-item{
-    justify-content:flex-start;
-    padding-left:18px !important;
-  }
-}
-
-/* Alvin Delve uploaded brand logo */
-.logo-image-link{
-  display:flex;
-  align-items:center;
-  width:180px;
-  height:68px;
-  text-decoration:none;
-  overflow:visible;
-}
-.site-logo-image{
-  width:170px;
-  height:62px;
-  display:block;
-  object-fit:contain;
-  object-position:left center;
-}
-.footer-logo-image-wrap{
-  display:flex;
-  justify-content:center;
-  margin-bottom:20px;
-}
-.footer-logo-image{
-  width:220px;
-  height:auto;
-  display:block;
-  object-fit:contain;
-}
-
-/* Keep every contact item on the same visual baseline */
+.identity-strip article{display:flex;gap:18px;align-items:center;padding:0 24px;border-right:1px solid rgba(229,185,72,.22)}
+.identity-strip article:last-child{border-right:none}
+.icon{width:70px;height:70px;min-width:70px;border:2px solid var(--gold2);border-radius:50%;display:grid;place-items:center;color:var(--gold2);font-size:2rem}
+.logo-mini{font-size:1.45rem;font-weight:1000}
+.identity-strip h3{text-transform:uppercase;font-size:.95rem;margin-bottom:6px}
+.identity-strip p{color:#d8d8d8;line-height:1.55;font-size:.94rem}
+.seen-on{padding:22px 7% 32px;background:#202329;border-bottom:1px solid var(--line)}
+.section-label{display:flex;justify-content:center;align-items:center;gap:22px;text-transform:uppercase;letter-spacing:7px;color:var(--gold2);font-weight:1000;margin-bottom:18px}
+.section-label span{display:block;width:44px;height:1px;background:var(--gold2)}
+.logo-row{display:grid;grid-template-columns:repeat(8,1fr);align-items:center;text-align:center}
+.logo-row span{text-transform:uppercase;font-size:1.05rem;font-weight:1000;color:#f1f1ee;padding:18px 12px;border-right:1px solid rgba(229,185,72,.25)}
+.logo-row span:last-child{border-right:none}
 .contact-bar{
-  align-items:stretch;
+  display:grid;grid-template-columns:repeat(5,1fr);padding:24px 7%;background:#22252b;border-bottom:1px solid var(--line)
 }
-.contact-item{
-  min-height:64px;
-  display:flex !important;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  line-height:1;
-  white-space:nowrap;
-}
-.contact-item > span:last-child{
-  display:inline-flex;
-  align-items:center;
-  min-height:24px;
-}
-.contact-icon{
-  width:24px;
-  height:24px;
-  min-width:24px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  color:var(--gold2);
-}
-.contact-icon svg{
-  width:22px;
-  height:22px;
-  display:block;
-  fill:currentColor;
-}
-.x-icon{
-  font-size:1.22rem;
-  font-weight:900;
-}
-.linkedin-icon{
-  border:1.5px solid var(--gold2);
-  border-radius:4px;
-  font-size:.82rem;
-  font-weight:1000;
-  letter-spacing:-1px;
+.contact-bar a{text-decoration:none;color:#fff;font-weight:800;text-align:center;border-right:1px solid rgba(229,185,72,.25);padding:10px}
+.contact-bar a:last-child{border-right:none}
+.section{padding:90px 7%}
+.section h2{font-size:clamp(2.4rem,4vw,4.4rem);line-height:1.02;text-transform:uppercase;letter-spacing:4px}
+.center{text-align:center}.section-intro{max-width:780px;margin:18px auto 36px;color:var(--muted);line-height:1.7}.tagline{color:var(--gold3);font-weight:900;line-height:1.6;margin-top:18px}
+.about{display:grid;grid-template-columns:.82fr 1.25fr;gap:60px;background:#262930;border-bottom:1px solid var(--line)}
+.about-copy p{color:#e0e1e4;line-height:1.85;margin-bottom:20px}
+.broadcasting,.resume,.speaking{background:#202329;border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.cards.three{grid-template-columns:repeat(3,1fr)}
+.cards article{background:linear-gradient(135deg,#282b33,#1d2026);border:1px solid rgba(229,185,72,.24);border-radius:16px;padding:26px;min-height:160px}
+.cards h3{text-transform:uppercase;color:var(--gold3);font-size:1rem;margin-bottom:10px}
+.cards p{color:var(--muted);line-height:1.7}
+.fitness{display:grid;grid-template-columns:.85fr 1.25fr .85fr;gap:34px;background:#f5f1e8;color:#121212}
+.fitness .eyebrow{color:#98721f}.fitness p{line-height:1.75;color:#333}.fitness h2{color:#111;margin-bottom:20px}
+.training-gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.training-gallery img{width:100%;height:220px;object-fit:cover;border-radius:18px;box-shadow:0 18px 45px rgba(0,0,0,.18)}
+.training-gallery img:nth-child(3){grid-column:1/3;height:290px}
+.service-list{display:grid;gap:18px;border-left:1px solid rgba(0,0,0,.14);padding-left:24px}
+.service-list h3{text-transform:uppercase;font-size:.95rem;margin-bottom:4px}.service-list p{color:#555}
+.center-btn{width:max-content;margin:28px auto 0}
+.footer{text-align:center;padding:42px 7%;background:#202329;color:var(--muted)}
+.footer-logo{margin:0 auto 24px}
+.footer .logo:before,.footer .logo:after{display:none}
+@media(max-width:1100px){
+  .hero,.about,.fitness{grid-template-columns:1fr}.hero-photo{height:auto;max-height:700px}.identity-strip{grid-template-columns:1fr 1fr}.logo-row{grid-template-columns:repeat(4,1fr)}.contact-bar{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr 1fr}.cards.three{grid-template-columns:1fr}
 }
 @media(max-width:760px){
-  .logo-image-link{width:145px}
-  .site-logo-image{width:138px;height:54px}
-  .contact-item{
-    justify-content:flex-start;
-    padding-left:18px !important;
-    white-space:normal;
-  }
+  .nav{display:none}.site-header{justify-content:center}.hero{padding:44px 6% 0}.hero h1{letter-spacing:3px}.eyebrow{letter-spacing:4px}.hero-actions{grid-template-columns:1fr}.btn.wide{grid-column:auto}.identity-strip,.logo-row,.contact-bar,.cards{grid-template-columns:1fr}.identity-strip article,.logo-row span,.contact-bar a{border-right:none;border-bottom:1px solid rgba(229,185,72,.2)}.training-gallery{grid-template-columns:1fr}.training-gallery img:nth-child(3){grid-column:auto;height:250px}.section{padding:70px 6%}
 }
+
+/* MASTER SITE VERSION: 2026.07.10-bulletproof-1 */
+.logo-image-link{display:flex;align-items:center;width:190px;height:66px;text-decoration:none}
+.site-logo-image{width:178px;height:62px;display:block;object-fit:contain;object-position:left center}
+.footer-logo-image-wrap{display:flex;justify-content:center;margin-bottom:18px}
+.footer-logo-image{width:220px;height:auto;display:block;object-fit:contain}
+.fitness-brand{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+.fitness-logo{width:78px;height:78px;object-fit:cover;object-position:center;border-radius:50%;border:2px solid #c59024;background:#fff}
+.fitness-subbrand{margin-top:-12px;color:#6f551f!important;font-size:.78rem;font-weight:900;letter-spacing:1.8px;text-transform:uppercase}
+.fitness-lead{font-size:1.08rem;font-weight:700;line-height:1.8;margin-bottom:15px}
+.training-highlights{display:grid;gap:12px;margin:22px 0 28px}
+.training-highlights article{padding:14px 0;border-bottom:1px solid rgba(0,0,0,.12)}
+.training-highlights article:last-child{border-bottom:none}
+.training-highlights h3{margin-bottom:5px;text-transform:uppercase;font-size:.86rem;letter-spacing:.8px}
+.training-highlights p{color:#4d4d4d!important;line-height:1.6!important}
+.contact-bar{align-items:stretch}
+.contact-item{min-height:64px;display:flex!important;align-items:center;justify-content:center;gap:10px;line-height:1;white-space:nowrap}
+.contact-item>span:last-child{display:inline-flex;align-items:center;min-height:24px}
+.contact-icon{width:24px;height:24px;min-width:24px;display:inline-flex;align-items:center;justify-content:center;color:var(--gold2)}
+.contact-icon svg{width:22px;height:22px;display:block;fill:currentColor}
+.x-icon{font-size:1.22rem;font-weight:900}
+.linkedin-icon{border:1.5px solid var(--gold2);border-radius:4px;font-size:.82rem;font-weight:1000;letter-spacing:-1px}
+@media(max-width:760px){.logo-image-link{width:145px}.site-logo-image{width:138px;height:54px}.contact-item{justify-content:flex-start;padding-left:18px!important;white-space:normal}}
