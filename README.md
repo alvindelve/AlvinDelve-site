@@ -1,5 +1,5 @@
-Upload every file in this folder to GitHub. This version includes:
-- the uploaded Alvin Delve AD logo in the header and footer
-- expanded Delve Into Fitness training language from the existing bio
-- a proper Instagram emblem
-- aligned email, location, and social contact items
+UPLOAD EVERY FILE IN THIS FOLDER TO THE ROOT OF YOUR GITHUB REPOSITORY.
+
+This package uses one static index.html, one style.css, local images, and netlify.toml.
+Do not upload the ZIP itself. Unzip it and upload all files inside together.
+LinkedIn is still a placeholder until the exact profile link is supplied.

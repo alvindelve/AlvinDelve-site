@@ -2,14 +2,11 @@
   publish = "."
   command = ""
 
-[build.environment]
-  SITE_VERSION = "2026.07.10-bulletproof-1"
-
 [[headers]]
   for = "/index.html"
   [headers.values]
     Cache-Control = "no-cache, no-store, must-revalidate"
-    X-Site-Version = "2026.07.10-bulletproof-1"
+    X-Site-Version = "2026.07.21-homepage-v10"
 
 [[headers]]
   for = "/style.css"

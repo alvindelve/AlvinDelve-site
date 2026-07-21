@@ -1,55 +1,13 @@
 {
-  "siteVersion": "2026.07.10-bulletproof-2",
-  "files": [
-    {
-      "file": "SITE-VERSION.txt",
-      "sha256": "d57db55659f4e431d1d621320357b4a38d14c7c70f84b5612c894b4f63f5273a",
-      "bytes": 25
-    },
-    {
-      "file": "alvin-delve-logo.png",
-      "sha256": "7d46c6f82a481d32de3aba0244353091acdf10d92ad87d6a6e64583399250f75",
-      "bytes": 129785
-    },
-    {
-      "file": "delveintofitness-logo.png",
-      "sha256": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2",
-      "bytes": 235824
-    },
-    {
-      "file": "hero.jpg",
-      "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626",
-      "bytes": 377763
-    },
-    {
-      "file": "index.html",
-      "sha256": "e0ba8814f8cdc9c38be15daa548541b920b20a6a54db4876b6b334c4ccd1e0a7",
-      "bytes": 11105
-    },
-    {
-      "file": "netlify.toml",
-      "sha256": "51e3da38a063e409207dcae34d5731e6e29e0f324fe5f0ebfe10782da1fa44f3",
-      "bytes": 375
-    },
-    {
-      "file": "style.css",
-      "sha256": "53f87077208fbbc6f9969300e554bc1fa81f86e3fa74e6db6fe9c18ada8e8fb3",
-      "bytes": 11333
-    },
-    {
-      "file": "training-group.jpg",
-      "sha256": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45",
-      "bytes": 577419
-    },
-    {
-      "file": "training-outside.jpg",
-      "sha256": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758",
-      "bytes": 554594
-    },
-    {
-      "file": "training-stretch.jpg",
-      "sha256": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15",
-      "bytes": 548644
-    }
-  ]
+  "README.md": "bb09a24b5ad6a85e709aa9c16b526c4dac1ffa852938c2c63572554b818974a4",
+  "SITE-VERSION.txt": "97d83757d9f04614bad18267e0931748c49cc6ac4e883c1bcdcd6daa2004a96c",
+  "alvin-delve-logo.png": "24d2ba0bef94e36acd5a11e5f764768dcff122f54e5ee1029876f39091549ce6",
+  "delveintofitness-logo.png": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2",
+  "hero.jpg": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626",
+  "index.html": "8d685bdd7991148e72bb9fe3c3aed6ada0d209cf719866533db852da8cd1ae6e",
+  "netlify.toml": "f995cf59e8bb1704b07156baffc70bcd32c5482af4f906878da4ef03876e5f14",
+  "style.css": "e4d8d61ca2ed3521532b161a04e4f77fcf4ae298307b9346f85ee0498abfbed1",
+  "training-group.jpg": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45",
+  "training-outside.jpg": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758",
+  "training-stretch.jpg": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15"
 }
