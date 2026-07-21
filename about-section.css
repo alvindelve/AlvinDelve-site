@@ -1,0 +1,53 @@
+/* Add this to the bottom of style.css. */
+
+.meet-section {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+}
+
+.meet-image {
+  width: 100%;
+}
+
+.meet-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 680px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+  border: 1px solid rgba(205, 163, 73, 0.32);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.4);
+}
+
+.meet-copy {
+  max-width: 780px;
+}
+
+.meet-copy p {
+  margin: 0 0 20px;
+  color: #d6d3cd;
+  line-height: 1.8;
+}
+
+.meet-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.meet-copy strong {
+  color: #edc978;
+}
+
+@media (max-width: 900px) {
+  .meet-section {
+    grid-template-columns: 1fr;
+  }
+
+  .meet-image img {
+    max-width: 580px;
+    margin-inline: auto;
+  }
+}
