@@ -1,5 +1,15 @@
-UPLOAD EVERY FILE IN THIS FOLDER TO THE ROOT OF YOUR GITHUB REPOSITORY.
+ALVIN DELVE HOMEPAGE V11 CLEAN
 
-This package uses one static index.html, one style.css, local images, and netlify.toml.
-Do not upload the ZIP itself. Unzip it and upload all files inside together.
-LinkedIn is still a placeholder until the exact profile link is supplied.
+Upload every file in this folder to the ROOT of the GitHub repository together.
+Unzip the package first; do not upload the ZIP itself.
+
+Updated:
+- New Meet Alvin photo
+- Previous Meet Alvin image now used as the demo reel thumbnail
+- Actual ESPN+, FIBA, FOX Sports, ASUN, NCAA.com, and FloSports logos
+- Broadcasting bubbles removed
+- Basketball, Football, Volleyball, and Track & Field properly capitalized
+- Perspective retained as clean text
+- Only one Meet Alvin heading
+
+The demo reel and LinkedIn URLs remain placeholders until supplied.
