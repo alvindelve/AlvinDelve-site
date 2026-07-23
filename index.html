@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- ALVIN DELVE WEBSITE VERSION: 2026.07.22-homepage-v13-bio-clean -->
+  <!-- ALVIN DELVE WEBSITE VERSION: 2026.07.22-homepage-v15-contact-form -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="site-version" content="2026.07.22-homepage-v13-bio-clean">
+  <meta name="site-version" content="2026.07.22-homepage-v15-contact-form">
   <title>Alvin Delve | Sports Analyst, Color Commentator & Performance Coach</title>
   <meta name="description" content="Alvin Delve is a sports analyst, color commentator, performance coach, speaker, and former NCAA Division I athlete.">
-  <link rel="stylesheet" href="style.css?v=2026.07.22-homepage-v13-bio-clean">
+  <link rel="stylesheet" href="style.css?v=2026.07.22-homepage-v15-contact-form">
 </head>
 
 <body>
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Alvin Delve home">
-      <img src="alvin-delve-logo.png?v=2026.07.22-homepage-v13-bio-clean" alt="Alvin Delve logo">
+      <img src="alvin-delve-logo.png?v=2026.07.22-homepage-v15-contact-form" alt="Alvin Delve logo">
     </a>
 
     <nav class="site-nav" aria-label="Primary navigation">
@@ -29,7 +29,7 @@
   <main>
     <section id="home" class="hero">
       <div class="hero-image">
-        <img src="hero.jpg?v=2026.07.22-homepage-v13-bio-clean" alt="Alvin Delve professional portrait">
+        <img src="hero.jpg?v=2026.07.22-homepage-v15-contact-form" alt="Alvin Delve professional portrait">
       </div>
 
       <div class="hero-copy">
@@ -38,15 +38,15 @@
         <p class="hero-bio">Alvin Delve is an American sports analyst and color commentator calling collegiate athletics for ESPN’s platforms in the United States and international basketball for FIBA Media.</p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="#broadcasting">Watch Demo Reel</a>
-          <a class="button button-secondary" href="mailto:alvindelve97@gmail.com?subject=Website%20Inquiry&body=Hello%20Alvin,%0A%0AName:%0AOrganization:%0AI%27m%20interested%20in:%0A%E2%98%90%20Broadcasting%0A%E2%98%90%20Speaking%0A%E2%98%90%20Training%0A%E2%98%90%20Media%20or%20Partnership%0A%0AMessage:">Let’s Connect</a>
+          <a class="button button-primary" id="watch-demo-reel" href="#broadcasting">Watch Demo Reel</a>
+          <a class="button button-secondary" href="#contact">Let’s Connect</a>
         </div>
       </div>
     </section>
 
     <section id="about" class="section meet-section">
       <div class="meet-image">
-        <img src="meet-alvin.png?v=2026.07.22-homepage-v13-bio-clean" alt="Alvin Delve broadcasting for ESPN">
+        <img src="meet-alvin.png?v=2026.07.22-homepage-v15-contact-form" alt="Alvin Delve broadcasting for ESPN">
       </div>
 
       <div class="meet-content">
@@ -107,15 +107,19 @@
     <section id="broadcasting" class="section broadcast-section">
       <div class="section-heading">
         <p class="section-label">Broadcasting</p>
-        <h2>The game deserves preparation.</h2>
       </div>
 
-      <a class="reel-card reel-card-large" href="#" aria-label="Demo reel link will be added later">
-        <img src="demo-reel-thumbnail.jpg?v=2026.07.22-homepage-v13-bio-clean" alt="Alvin Delve demo reel thumbnail">
-        <span class="reel-overlay"></span>
-        <span class="play-button">▶</span>
-        <span class="reel-caption">Demo Reel</span>
-      </a>
+      <video
+        id="demo-reel"
+        class="reel-video reel-card-large"
+        controls
+        playsinline
+        preload="metadata"
+        poster="demo-reel-thumbnail.jpg?v=2026.07.22-homepage-v15-contact-form"
+      >
+        <source src="demo-reel.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
 
       <div class="sports-covered-line" aria-label="Sports covered">
         <span>Basketball</span>
@@ -136,7 +140,7 @@
     <section id="training" class="section training-section">
       <div class="training-copy">
         <div class="training-brand">
-          <img src="delveintofitness-logo.png?v=2026.07.22-homepage-v13-bio-clean" alt="Delve Into Fitness logo">
+          <img src="delveintofitness-logo.png?v=2026.07.22-homepage-v15-contact-form" alt="Delve Into Fitness logo">
           <div>
             <p class="section-label">Delve Into Fitness</p>
             <h2>Move better. Perform longer.</h2>
@@ -153,9 +157,9 @@
       </div>
 
       <div class="training-gallery">
-        <img src="training-outside.jpg?v=2026.07.22-homepage-v13-bio-clean" alt="Outdoor Delve Into Fitness training">
-        <img src="training-group.jpg?v=2026.07.22-homepage-v13-bio-clean" alt="Delve Into Fitness group session">
-        <img src="training-stretch.jpg?v=2026.07.22-homepage-v13-bio-clean" alt="Alvin Delve assisted stretching session">
+        <img src="training-outside.jpg?v=2026.07.22-homepage-v15-contact-form" alt="Outdoor Delve Into Fitness training">
+        <img src="training-group.jpg?v=2026.07.22-homepage-v15-contact-form" alt="Delve Into Fitness group session">
+        <img src="training-stretch.jpg?v=2026.07.22-homepage-v15-contact-form" alt="Alvin Delve assisted stretching session">
       </div>
     </section>
 
@@ -167,14 +171,52 @@
           Leadership, athlete development, resilience, human performance, and the mindset
           required to meet the moment.
         </p>
-        <a class="button button-secondary" href="mailto:alvindelve97@gmail.com?subject=Website%20Inquiry&body=Hello%20Alvin,%0A%0AName:%0AOrganization:%0AI%27m%20interested%20in:%0A%E2%98%90%20Broadcasting%0A%E2%98%90%20Speaking%0A%E2%98%90%20Training%0A%E2%98%90%20Media%20or%20Partnership%0A%0AMessage:">Book Alvin</a>
+        <a class="button button-secondary" href="#contact">Book Alvin</a>
       </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading centered">
+        <p class="section-label">Contact</p>
+        <h2>Book Alvin</h2>
+        <p>Share a few details below, and your message will be sent directly to Alvin.</p>
+      </div>
+
+      <form class="contact-form" action="https://formsubmit.co/alvindelve97@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New inquiry from AlvinDelve.com">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="contact-subject">Subject</label>
+          <input id="contact-subject" name="subject" type="text" required>
+        </div>
+
+        <div class="form-field">
+          <label for="contact-message">Quick Message</label>
+          <textarea id="contact-message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button class="button button-primary contact-submit" type="submit">Send</button>
+      </form>
     </section>
   </main>
 
-  <footer id="contact" class="site-footer">
+  <footer class="site-footer">
     <div class="footer-brand">
-      <img src="alvin-delve-logo.png?v=2026.07.22-homepage-v13-bio-clean" alt="Alvin Delve logo">
+      <img src="alvin-delve-logo.png?v=2026.07.22-homepage-v15-contact-form" alt="Alvin Delve logo">
     </div>
 
     <div class="footer-links">
@@ -187,5 +229,21 @@
 
     <p class="copyright">© 2026 Alvin Delve. All rights reserved.</p>
   </footer>
+  <script>
+    const watchReelButton = document.getElementById('watch-demo-reel');
+    const demoReel = document.getElementById('demo-reel');
+
+    if (watchReelButton && demoReel) {
+      watchReelButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById('broadcasting').scrollIntoView({ behavior: 'smooth' });
+        window.setTimeout(function () {
+          demoReel.play().catch(function () {
+            // Some browsers may require a second tap after scrolling.
+          });
+        }, 500);
+      });
+    }
+  </script>
 </body>
 </html>
