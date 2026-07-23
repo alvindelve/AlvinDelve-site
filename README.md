@@ -1,18 +1,13 @@
-ALVIN DELVE HOMEPAGE V12 CLEAN
+ALVIN DELVE HOMEPAGE V16 — SPEAKING + CONTACT / REEL FIX
 
 Upload every file in this folder to the ROOT of the GitHub repository together.
 Unzip the package first; do not upload the ZIP itself.
 
 Updated:
-- Removed the "Built in competition. Trusted in the moment." tagline
-- Removed promotional filler from the Meet Alvin section
-- Meet Alvin now presents Alvin's concise professional bio directly
-- Replaced the hero marketing line with a concise sports analyst bio
-- New gray plaid suit image used as the demo reel thumbnail
-- Existing page structure, styling, navigation, images, and Netlify configuration preserved
+- Speaking and Book Alvin contact form combined into one continuous page section
+- Contact fields aligned and sized consistently on desktop and iPad
+- Watch Demo Reel button now starts the reel directly from the click before scrolling
+- Existing demo reel thumbnail retained
+- FOX Sports remains in the As Seen On row
 
-The demo reel and LinkedIn URLs remain placeholders until supplied.
-
-V13 update:
-- Removed the Meet Alvin label and duplicate Alvin Delve heading
-- Replaced the section copy with the supplied full professional bio
+The LinkedIn URL remains a placeholder until supplied.

@@ -1,61 +1,75 @@
 {
-  "version": "2026.07.22-homepage-v15-contact-form",
-  "files": {
-    "README.md": {
-      "sha256": "d6b3a35d87d37a0e6404f414010f4d9cdb6b4b0e28efceedc07dd1e33c080d20",
-      "bytes": 769
+  "version": "2026.07.22-homepage-v16-speaking-contact-reel-fix",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 579,
+      "sha256": "de4b9a2551cabb70f662f7c8d4432ac6c605f199022b9f6a847a3fe482638524"
     },
-    "SITE-VERSION.txt": {
-      "sha256": "d96d0bf973613e81dfacbf8ef861ccb0471be4951fd6b2682573f1e4c6b9fd24",
-      "bytes": 37
+    {
+      "file": "SITE-VERSION.txt",
+      "bytes": 50,
+      "sha256": "77bb1fb50f62e0bf61dd49e157a9db83df4e3a70163b901b5f44dc9331de50a1"
     },
-    "alvin-delve-logo.png": {
-      "sha256": "24d2ba0bef94e36acd5a11e5f764768dcff122f54e5ee1029876f39091549ce6",
-      "bytes": 126531
+    {
+      "file": "alvin-delve-logo.png",
+      "bytes": 126531,
+      "sha256": "24d2ba0bef94e36acd5a11e5f764768dcff122f54e5ee1029876f39091549ce6"
     },
-    "delveintofitness-logo.png": {
-      "sha256": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2",
-      "bytes": 235824
+    {
+      "file": "delveintofitness-logo.png",
+      "bytes": 235824,
+      "sha256": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2"
     },
-    "demo-reel-thumbnail.jpg": {
-      "sha256": "d2387e307d51364abcf8ad97af0a6ba8cec919912318d379c73305dbc3fa0c98",
-      "bytes": 46069
+    {
+      "file": "demo-reel-thumbnail.jpg",
+      "bytes": 46069,
+      "sha256": "d2387e307d51364abcf8ad97af0a6ba8cec919912318d379c73305dbc3fa0c98"
     },
-    "demo-reel.mp4": {
-      "sha256": "de6cbf4d9fe9d7a3b1e44aa549d75e82ec5c177d8b59651044a4c9bf31d51fbb",
-      "bytes": 106912421
+    {
+      "file": "demo-reel.mp4",
+      "bytes": 106912421,
+      "sha256": "de6cbf4d9fe9d7a3b1e44aa549d75e82ec5c177d8b59651044a4c9bf31d51fbb"
     },
-    "hero.jpg": {
-      "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626",
-      "bytes": 377763
+    {
+      "file": "hero.jpg",
+      "bytes": 377763,
+      "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626"
     },
-    "index.html": {
-      "sha256": "fcffb94716a4900187db6f2be0988a8c68d11b97eafbeb083aebc98feeecaf17",
-      "bytes": 10985
+    {
+      "file": "index.html",
+      "bytes": 11279,
+      "sha256": "b807897fd781b450260507711c3c8eaf75f0c5341debcae6611b630e4e932106"
     },
-    "meet-alvin.png": {
-      "sha256": "9973309708f301b8580af17162c75690906e55ebb1387f4d4682671dc0e7bd35",
-      "bytes": 411838
+    {
+      "file": "meet-alvin.png",
+      "bytes": 411838,
+      "sha256": "9973309708f301b8580af17162c75690906e55ebb1387f4d4682671dc0e7bd35"
     },
-    "netlify.toml": {
-      "sha256": "9057818ff8fbeeaa383f24c0260f637f4a8332b83c1115d0644f779034cf1e48",
-      "bytes": 315
+    {
+      "file": "netlify.toml",
+      "bytes": 315,
+      "sha256": "9057818ff8fbeeaa383f24c0260f637f4a8332b83c1115d0644f779034cf1e48"
     },
-    "style.css": {
-      "sha256": "dfa603ae5d1b11575ea45fbb23ae9fb43da9aeec9d2b58f4a6f00132cf31949f",
-      "bytes": 12333
+    {
+      "file": "style.css",
+      "bytes": 13815,
+      "sha256": "16879df807927aa3e048fe2cf4d713a6547e287337a1b0cd8d6beb414fc3f26a"
     },
-    "training-group.jpg": {
-      "sha256": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45",
-      "bytes": 577419
+    {
+      "file": "training-group.jpg",
+      "bytes": 577419,
+      "sha256": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45"
     },
-    "training-outside.jpg": {
-      "sha256": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758",
-      "bytes": 554594
+    {
+      "file": "training-outside.jpg",
+      "bytes": 554594,
+      "sha256": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758"
     },
-    "training-stretch.jpg": {
-      "sha256": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15",
-      "bytes": 548644
+    {
+      "file": "training-stretch.jpg",
+      "bytes": 548644,
+      "sha256": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15"
     }
-  }
+  ]
 }
