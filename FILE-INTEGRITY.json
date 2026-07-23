@@ -1,61 +1,58 @@
 {
-  "version": "2026.07.22-homepage-v18-brand-copy-clean",
-  "files": {
-    "README.md": {
-      "bytes": 518,
-      "sha256": "3d5307c1b156aa359485ed074c136623469acf7aff4ee8f9c1e376722d4105c4"
-    },
-    "SITE-VERSION.txt": {
-      "bytes": 41,
-      "sha256": "98a570990e2897cf3a23c439c6e8a6dc67437a5f402e0d3962d495107ac736e7"
-    },
-    "alvin-delve-logo.png": {
-      "bytes": 126531,
-      "sha256": "24d2ba0bef94e36acd5a11e5f764768dcff122f54e5ee1029876f39091549ce6"
-    },
-    "delveintofitness-logo.png": {
-      "bytes": 235824,
-      "sha256": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2"
-    },
-    "demo-reel-thumbnail.jpg": {
-      "bytes": 46069,
-      "sha256": "d2387e307d51364abcf8ad97af0a6ba8cec919912318d379c73305dbc3fa0c98"
-    },
-    "demo-reel.mp4": {
-      "bytes": 24566228,
-      "sha256": "d02fbfd9e8a9912b2e0864698b722477ef15ee389b10cd875ab69dbd3fadea88"
-    },
-    "hero.jpg": {
-      "bytes": 377763,
-      "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626"
-    },
-    "index.html": {
-      "bytes": 10931,
-      "sha256": "a5d143b0438c4dc7bb15a10d43fa9109eda97da2bc1194228f02f3d774adfa8e"
-    },
-    "meet-alvin.png": {
-      "bytes": 411838,
-      "sha256": "9973309708f301b8580af17162c75690906e55ebb1387f4d4682671dc0e7bd35"
-    },
-    "netlify.toml": {
-      "bytes": 315,
-      "sha256": "9057818ff8fbeeaa383f24c0260f637f4a8332b83c1115d0644f779034cf1e48"
-    },
-    "style.css": {
-      "bytes": 13815,
-      "sha256": "16879df807927aa3e048fe2cf4d713a6547e287337a1b0cd8d6beb414fc3f26a"
-    },
-    "training-group.jpg": {
-      "bytes": 577419,
-      "sha256": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45"
-    },
-    "training-outside.jpg": {
-      "bytes": 554594,
-      "sha256": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758"
-    },
-    "training-stretch.jpg": {
-      "bytes": 548644,
-      "sha256": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15"
-    }
+  "README.md": {
+    "sha256": "41550d0716998ebb327ac1812a4ab1344cedc6897ba5394cf02c49da42507afd",
+    "bytes": 628
+  },
+  "SITE-VERSION.txt": {
+    "sha256": "dd89364b61db559628bf6f4ea20a733de6ec76d654444a308f6a57e4b42770c4",
+    "bytes": 44
+  },
+  "alvin-delve-logo.png": {
+    "sha256": "24d2ba0bef94e36acd5a11e5f764768dcff122f54e5ee1029876f39091549ce6",
+    "bytes": 126531
+  },
+  "delveintofitness-logo.png": {
+    "sha256": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2",
+    "bytes": 235824
+  },
+  "demo-reel-thumbnail.jpg": {
+    "sha256": "d2387e307d51364abcf8ad97af0a6ba8cec919912318d379c73305dbc3fa0c98",
+    "bytes": 46069
+  },
+  "demo-reel.mp4": {
+    "sha256": "d02fbfd9e8a9912b2e0864698b722477ef15ee389b10cd875ab69dbd3fadea88",
+    "bytes": 24566228
+  },
+  "hero.jpg": {
+    "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626",
+    "bytes": 377763
+  },
+  "index.html": {
+    "sha256": "985e5f8d721a7771789ab56304d983ef2d5ca6a881c170a39a6677e469477d29",
+    "bytes": 10970
+  },
+  "meet-alvin.png": {
+    "sha256": "9973309708f301b8580af17162c75690906e55ebb1387f4d4682671dc0e7bd35",
+    "bytes": 411838
+  },
+  "netlify.toml": {
+    "sha256": "9057818ff8fbeeaa383f24c0260f637f4a8332b83c1115d0644f779034cf1e48",
+    "bytes": 315
+  },
+  "style.css": {
+    "sha256": "16879df807927aa3e048fe2cf4d713a6547e287337a1b0cd8d6beb414fc3f26a",
+    "bytes": 13815
+  },
+  "training-group.jpg": {
+    "sha256": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45",
+    "bytes": 577419
+  },
+  "training-outside.jpg": {
+    "sha256": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758",
+    "bytes": 554594
+  },
+  "training-stretch.jpg": {
+    "sha256": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15",
+    "bytes": 548644
   }
 }

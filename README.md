@@ -1,11 +1,16 @@
-ALVIN DELVE HOMEPAGE V18 BRAND COPY CLEAN
+ALVIN DELVE HOMEPAGE V17 REEL PLAYBACK FIX
 
 Upload every file in this folder to the ROOT of the GitHub repository together.
 Unzip the package first; do not upload the ZIP itself.
 
 Updated:
-- FOX Sports logo removed from the As Seen On section
-- Remaining network logos automatically re-centered
-- Delve Into Fitness slogan changed to “Perfect the Process.”
-- “Preparation creates presence.” removed from the Speaking section
-- Reel playback, thumbnail, contact form, bio, layout, and all other content retained
+- Reel compressed below GitHub’s 100 MB single-file limit
+- MP4 optimized for web playback with fast-start metadata
+- Watch Demo Reel button loads, plays, and scrolls to the reel
+- Existing thumbnail, contact form, FOX Sports logo, bio, and layout retained
+
+
+V19 verified updates:
+- Removed FOX Sports logo from As Seen On
+- Changed Delve Into Fitness slogan to Perfect the Process.
+- Removed Preparation creates presence. from Speaking
