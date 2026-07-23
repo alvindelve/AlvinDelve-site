@@ -1,13 +1,13 @@
 {
-  "version": "2026.07.22-homepage-v17-reel-playback-fix",
+  "version": "2026.07.22-homepage-v18-brand-copy-clean",
   "files": {
     "README.md": {
-      "bytes": 448,
-      "sha256": "218cf682d0035ec6b40a92dfe5680cb71cd23a9dffe30e2b24e703d1b6c0347d"
+      "bytes": 518,
+      "sha256": "3d5307c1b156aa359485ed074c136623469acf7aff4ee8f9c1e376722d4105c4"
     },
     "SITE-VERSION.txt": {
-      "bytes": 42,
-      "sha256": "d3c892cc10cdd571e453bfab441a592c9df1c0de816f25a2f814aea45c0ddc42"
+      "bytes": 41,
+      "sha256": "98a570990e2897cf3a23c439c6e8a6dc67437a5f402e0d3962d495107ac736e7"
     },
     "alvin-delve-logo.png": {
       "bytes": 126531,
@@ -30,8 +30,8 @@
       "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626"
     },
     "index.html": {
-      "bytes": 11198,
-      "sha256": "5f433b9904e645577fa2d1d4c7772d2f811a0b965d279d7c7b3f53e68a855ba4"
+      "bytes": 10931,
+      "sha256": "a5d143b0438c4dc7bb15a10d43fa9109eda97da2bc1194228f02f3d774adfa8e"
     },
     "meet-alvin.png": {
       "bytes": 411838,
