@@ -1,13 +1,10 @@
-ALVIN DELVE HOMEPAGE V16 — SPEAKING + CONTACT / REEL FIX
+ALVIN DELVE HOMEPAGE V17 REEL PLAYBACK FIX
 
 Upload every file in this folder to the ROOT of the GitHub repository together.
 Unzip the package first; do not upload the ZIP itself.
 
 Updated:
-- Speaking and Book Alvin contact form combined into one continuous page section
-- Contact fields aligned and sized consistently on desktop and iPad
-- Watch Demo Reel button now starts the reel directly from the click before scrolling
-- Existing demo reel thumbnail retained
-- FOX Sports remains in the As Seen On row
-
-The LinkedIn URL remains a placeholder until supplied.
+- Reel compressed below GitHub’s 100 MB single-file limit
+- MP4 optimized for web playback with fast-start metadata
+- Watch Demo Reel button loads, plays, and scrolls to the reel
+- Existing thumbnail, contact form, FOX Sports logo, bio, and layout retained

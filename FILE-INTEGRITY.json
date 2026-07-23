@@ -1,75 +1,61 @@
 {
-  "version": "2026.07.22-homepage-v16-speaking-contact-reel-fix",
-  "files": [
-    {
-      "file": "README.md",
-      "bytes": 579,
-      "sha256": "de4b9a2551cabb70f662f7c8d4432ac6c605f199022b9f6a847a3fe482638524"
+  "version": "2026.07.22-homepage-v17-reel-playback-fix",
+  "files": {
+    "README.md": {
+      "bytes": 448,
+      "sha256": "218cf682d0035ec6b40a92dfe5680cb71cd23a9dffe30e2b24e703d1b6c0347d"
     },
-    {
-      "file": "SITE-VERSION.txt",
-      "bytes": 50,
-      "sha256": "77bb1fb50f62e0bf61dd49e157a9db83df4e3a70163b901b5f44dc9331de50a1"
+    "SITE-VERSION.txt": {
+      "bytes": 42,
+      "sha256": "d3c892cc10cdd571e453bfab441a592c9df1c0de816f25a2f814aea45c0ddc42"
     },
-    {
-      "file": "alvin-delve-logo.png",
+    "alvin-delve-logo.png": {
       "bytes": 126531,
       "sha256": "24d2ba0bef94e36acd5a11e5f764768dcff122f54e5ee1029876f39091549ce6"
     },
-    {
-      "file": "delveintofitness-logo.png",
+    "delveintofitness-logo.png": {
       "bytes": 235824,
       "sha256": "dda362bc78a18e0f86c9ecced821fc1a747f8e519bc40a3fbf0da9e1d63159b2"
     },
-    {
-      "file": "demo-reel-thumbnail.jpg",
+    "demo-reel-thumbnail.jpg": {
       "bytes": 46069,
       "sha256": "d2387e307d51364abcf8ad97af0a6ba8cec919912318d379c73305dbc3fa0c98"
     },
-    {
-      "file": "demo-reel.mp4",
-      "bytes": 106912421,
-      "sha256": "de6cbf4d9fe9d7a3b1e44aa549d75e82ec5c177d8b59651044a4c9bf31d51fbb"
+    "demo-reel.mp4": {
+      "bytes": 24566228,
+      "sha256": "d02fbfd9e8a9912b2e0864698b722477ef15ee389b10cd875ab69dbd3fadea88"
     },
-    {
-      "file": "hero.jpg",
+    "hero.jpg": {
       "bytes": 377763,
       "sha256": "598536347729a2aeb104cb870e99a739739dd8b4b7045d738db1cc4f6c2d4626"
     },
-    {
-      "file": "index.html",
-      "bytes": 11279,
-      "sha256": "b807897fd781b450260507711c3c8eaf75f0c5341debcae6611b630e4e932106"
+    "index.html": {
+      "bytes": 11198,
+      "sha256": "5f433b9904e645577fa2d1d4c7772d2f811a0b965d279d7c7b3f53e68a855ba4"
     },
-    {
-      "file": "meet-alvin.png",
+    "meet-alvin.png": {
       "bytes": 411838,
       "sha256": "9973309708f301b8580af17162c75690906e55ebb1387f4d4682671dc0e7bd35"
     },
-    {
-      "file": "netlify.toml",
+    "netlify.toml": {
       "bytes": 315,
       "sha256": "9057818ff8fbeeaa383f24c0260f637f4a8332b83c1115d0644f779034cf1e48"
     },
-    {
-      "file": "style.css",
+    "style.css": {
       "bytes": 13815,
       "sha256": "16879df807927aa3e048fe2cf4d713a6547e287337a1b0cd8d6beb414fc3f26a"
     },
-    {
-      "file": "training-group.jpg",
+    "training-group.jpg": {
       "bytes": 577419,
       "sha256": "3840c24148184cce905ea9c647b4fb9ed3d25dceb18a822f40a962a70966fe45"
     },
-    {
-      "file": "training-outside.jpg",
+    "training-outside.jpg": {
       "bytes": 554594,
       "sha256": "d05bf3b840bf8747c2ec46ad898c5639733e48532e229e79012bb35fbe17f758"
     },
-    {
-      "file": "training-stretch.jpg",
+    "training-stretch.jpg": {
       "bytes": 548644,
       "sha256": "134b5d2bcf2b543f7c1e65d68c6ae32e3a735f099405cf74e77eda8144e47c15"
     }
-  ]
+  }
 }
