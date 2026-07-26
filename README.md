@@ -1,10 +1,5 @@
-ALVIN DELVE HOMEPAGE V21 CURRENT EDITS
+# Alvin Delve Homepage — V23 Premium Portfolio
 
-Upload every file in this folder to the ROOT of the GitHub repository together.
-Unzip the package first; do not upload the ZIP itself.
+GitHub/Netlify-ready website package with premium visual hierarchy, refined navigation, subtle motion, improved section transitions, stronger reel presentation, and responsive polish.
 
-Updated:
-- Removed the broken FOX Sports logo from As Seen On
-- Changed Delve Into Fitness slogan to “Perfect the Process.”
-- Removed “Preparation creates presence.” from Speaking
-- Preserved the working reel, thumbnail, contact form, bio, layout, and mobile styling
+The existing contact wording and form were intentionally preserved for a later revision.

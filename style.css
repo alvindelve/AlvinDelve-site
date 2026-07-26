@@ -479,3 +479,245 @@ a{color:inherit}
   .contact-form{padding:24px 18px}
   .contact-submit{max-width:none}
 }
+
+/* EXECUTIVE POLISH — 2026.07.26 */
+/* Stronger hierarchy, cleaner mobile logo grid, and tighter section rhythm. */
+
+/* Header brand presence */
+.brand{width:196px;height:68px}
+.brand img{width:186px;height:64px}
+
+/* Hero emphasis */
+.hero{
+  grid-template-columns:1.08fr .92fr;
+  gap:52px;
+  padding-top:62px;
+  padding-bottom:68px;
+}
+.hero-image,
+.hero-image img{min-height:675px}
+.hero h1{font-size:clamp(3.2rem,6.2vw,6.9rem)}
+.hero-actions{margin-top:40px}
+
+/* Cleaner, better-balanced media logo wall */
+.logo-wall{
+  max-width:1060px;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:0;
+}
+.logo-cell{
+  min-height:145px;
+  padding:28px 34px;
+  border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.logo-cell:nth-child(3n){border-right:none}
+.logo-cell:nth-last-child(-n+2){border-bottom:none}
+.logo-cell img{max-width:168px;max-height:86px}
+.logo-cell:nth-child(1) img{max-width:180px;max-height:92px}
+.logo-cell:nth-child(5) img{max-width:178px;max-height:88px}
+.ncaa-logo-cell img{max-width:82px;max-height:82px}
+.dot-com{font-size:1.3rem}
+
+/* Demo reel gets more visual priority */
+.broadcast-section{padding-left:5.5%;padding-right:5.5%}
+.reel-card-large{margin-top:34px}
+.reel-video{border-radius:24px;box-shadow:0 24px 65px rgba(0,0,0,.34)}
+
+/* Perspective reads as one confident statement */
+.perspective-copy{max-width:940px;margin-top:34px}
+.perspective-copy p:last-child{
+  max-width:900px;
+  margin:14px auto 0;
+  font-size:1.13rem;
+  line-height:1.7;
+}
+
+/* Delve Into Fitness balance */
+.training-brand{gap:26px}
+.training-brand img{flex:0 0 auto}
+.training-copy h2{font-size:clamp(2.55rem,4.35vw,4.75rem)}
+.training-copy>p{margin-top:32px}
+
+/* Slightly tighter flow between major sections */
+.broadcast-section,
+.training-section,
+.speaking-contact-section{padding-top:82px;padding-bottom:82px}
+
+@media(max-width:1050px){
+  .hero{grid-template-columns:1fr;padding-top:54px}
+  .hero-image,.hero-image img{min-height:620px}
+  .logo-wall{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .logo-cell:nth-child(3){border-right:none}
+}
+
+@media(max-width:680px){
+  .site-header{min-height:86px;padding-top:9px;padding-bottom:9px}
+  .brand{width:168px;height:66px}
+  .brand img{width:162px;height:62px}
+
+  .hero{padding:34px 5% 54px;gap:28px}
+  .hero-image,.hero-image img{min-height:520px}
+  .hero h1{font-size:clamp(3rem,14vw,4.65rem);line-height:.98}
+  .hero-actions{margin-top:32px}
+
+  .seen-on{padding:54px 5% 58px}
+  .logo-wall{
+    max-width:560px;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:24px 20px;
+    margin-top:30px;
+  }
+  .logo-cell,
+  .logo-cell:nth-child(odd),
+  .logo-cell:nth-child(even),
+  .logo-cell:nth-child(3n),
+  .logo-cell:nth-last-child(-n+2){
+    min-height:118px;
+    padding:18px 12px;
+    border:0;
+  }
+  .logo-cell img{max-width:145px;max-height:76px}
+  .logo-cell:nth-child(1) img{max-width:158px;max-height:82px}
+  .logo-cell:nth-child(5) img{max-width:158px;max-height:78px}
+  .ncaa-logo-cell img{max-width:72px;max-height:72px}
+  .dot-com{font-size:1.15rem}
+
+  .broadcast-section{padding-left:4%;padding-right:4%}
+  .reel-card-large{margin-top:28px}
+
+  .perspective-copy{max-width:100%;margin-top:30px;padding:0 2%}
+  .perspective-copy p:last-child{
+    font-size:1.06rem;
+    line-height:1.65;
+  }
+
+  .training-section{padding-top:68px;padding-bottom:72px}
+  .training-brand{gap:22px;align-items:flex-start}
+  .training-brand img{width:92px;height:92px;margin-top:6px}
+  .training-copy h2{
+    font-size:clamp(2.45rem,12vw,3.65rem);
+    line-height:1.02;
+    letter-spacing:2px;
+  }
+  .training-copy>p{margin-top:30px}
+
+  .speaking-contact-section{padding-top:70px;padding-bottom:70px}
+}
+
+/* PREMIUM PORTFOLIO — 2026.07.26-v23 */
+/* Cinematic hierarchy and motion. Contact copy/form intentionally unchanged. */
+html{scroll-behavior:smooth}
+body{background:#181b20}
+
+.site-header{
+  background:linear-gradient(180deg,rgba(24,27,32,.88),rgba(24,27,32,.58));
+  backdrop-filter:blur(18px) saturate(125%);
+  -webkit-backdrop-filter:blur(18px) saturate(125%);
+  transition:background .35s ease,box-shadow .35s ease,border-color .35s ease;
+}
+.site-header.is-scrolled{
+  background:rgba(24,27,32,.96);
+  border-bottom-color:rgba(225,179,74,.24);
+  box-shadow:0 14px 38px rgba(0,0,0,.28);
+}
+.site-nav a{position:relative;padding-bottom:7px;transition:color .25s ease}
+.site-nav a::after{
+  content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;
+  background:linear-gradient(90deg,var(--gold),var(--gold-soft));
+  transition:right .28s ease;
+}
+.site-nav a:hover::after,.site-nav a.is-active::after{right:0}
+.site-nav a.is-active{color:var(--gold-soft)}
+
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero::after{
+  content:"";position:absolute;z-index:-1;width:480px;height:480px;border-radius:50%;
+  right:-180px;bottom:-220px;background:rgba(225,179,74,.08);filter:blur(10px);
+}
+.hero-image{position:relative;transform:translateZ(0)}
+.hero-image::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,transparent 64%,rgba(12,14,17,.22));
+}
+.hero-copy{position:relative}
+.hero-copy::before{
+  content:"";display:block;width:74px;height:3px;margin-bottom:25px;
+  background:linear-gradient(90deg,var(--gold),transparent);
+}
+.hero-bio{max-width:610px}
+.button{position:relative;overflow:hidden}
+.button::after{
+  content:"";position:absolute;inset:0;transform:translateX(-115%);
+  background:linear-gradient(105deg,transparent 34%,rgba(255,255,255,.22),transparent 66%);
+  transition:transform .55s ease;
+}
+.button:hover::after{transform:translateX(115%)}
+.button-primary{box-shadow:0 12px 30px rgba(225,179,74,.18)}
+.button-secondary:hover{background:rgba(225,179,74,.09)}
+
+main>section{position:relative}
+main>section:not(.hero)::before{
+  content:"";position:absolute;top:0;left:50%;width:min(86%,1180px);height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,rgba(225,179,74,.22),transparent);
+}
+.meet-section{background:linear-gradient(145deg,#2a2d35,#24272e)}
+.meet-copy p{max-width:780px}
+.meet-image{transition:transform .45s ease,box-shadow .45s ease}
+.meet-image:hover{transform:translateY(-5px);box-shadow:0 34px 82px rgba(0,0,0,.4)}
+
+.seen-on{background:linear-gradient(180deg,#1f2228,#1c1f24)}
+.logo-cell{transition:transform .28s ease,background .28s ease}
+.logo-cell:hover{transform:translateY(-4px);background:rgba(255,255,255,.025)}
+.logo-cell img{filter:grayscale(1) brightness(1.16);opacity:.88;transition:filter .28s ease,opacity .28s ease,transform .28s ease}
+.logo-cell:hover img{filter:grayscale(0) brightness(1.08);opacity:1;transform:scale(1.035)}
+
+.broadcast-section{background:
+  radial-gradient(circle at 85% 10%,rgba(225,179,74,.07),transparent 27%),
+  var(--charcoal-dark)}
+.reel-video{transition:transform .4s ease,box-shadow .4s ease,border-color .4s ease}
+.reel-video:hover{transform:translateY(-4px);border-color:rgba(225,179,74,.48);box-shadow:0 32px 78px rgba(0,0,0,.46)}
+.sports-covered-line{position:relative;margin-top:34px}
+.sports-covered-line span{position:relative;padding:0 7px}
+.sports-covered-line span:not(:last-child)::after{
+  content:"";position:absolute;right:-23px;top:50%;width:4px;height:4px;border-radius:50%;
+  background:var(--gold-rich);transform:translateY(-50%);opacity:.58;
+}
+.perspective-copy{
+  padding:30px clamp(20px,4vw,54px);border:1px solid rgba(225,179,74,.15);
+  border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012));
+}
+.perspective-copy p:last-child{color:#d8d8db}
+
+.training-section{position:relative;overflow:hidden}
+.training-section::after{
+  content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-260px;top:-230px;
+  background:rgba(198,148,44,.08);pointer-events:none;
+}
+.training-gallery img{transition:transform .4s ease,box-shadow .4s ease}
+.training-gallery img:hover{transform:translateY(-5px) scale(1.012);box-shadow:0 25px 52px rgba(0,0,0,.22)}
+.training-brand img{box-shadow:0 12px 28px rgba(0,0,0,.14)}
+
+.speaking-intro{max-width:760px}
+.speaking-intro p:not(.section-label){line-height:1.8}
+
+.reveal-ready{
+  opacity:0;transform:translateY(24px);
+  transition:opacity .75s cubic-bezier(.2,.65,.25,1),transform .75s cubic-bezier(.2,.65,.25,1);
+}
+.reveal-ready.is-visible{opacity:1;transform:none}
+
+@media(max-width:680px){
+  .hero-copy::before{width:58px;margin-bottom:20px}
+  main>section:not(.hero)::before{width:88%}
+  .perspective-copy{padding:25px 20px;border-radius:15px}
+  .sports-covered-line span:not(:last-child)::after{display:none}
+  .logo-cell:hover,.meet-image:hover,.reel-video:hover,.training-gallery img:hover{transform:none}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .reveal-ready{opacity:1;transform:none}
+}
