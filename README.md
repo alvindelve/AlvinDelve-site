@@ -1,11 +1,10 @@
-ALVIN DELVE HOMEPAGE V20 DEPLOY REFRESH
+ALVIN DELVE HOMEPAGE V21 CURRENT EDITS
 
 Upload every file in this folder to the ROOT of the GitHub repository together.
 Unzip the package first; do not upload the ZIP itself.
 
-Verified updates:
-- FOX Sports logo removed from As Seen On
-- Delve Into Fitness slogan changed to Perfect the Process.
-- Preparation creates presence. removed from Speaking
-- Cache headers and site version refreshed to force a clean Netlify deployment
-- Reel, contact form, thumbnail, bio, layout, and all other assets preserved
+Updated:
+- Removed the broken FOX Sports logo from As Seen On
+- Changed Delve Into Fitness slogan to “Perfect the Process.”
+- Removed “Preparation creates presence.” from Speaking
+- Preserved the working reel, thumbnail, contact form, bio, layout, and mobile styling
