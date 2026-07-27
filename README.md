@@ -1,5 +1,7 @@
-# Alvin Delve Homepage — V23 Premium Portfolio
+Alvin Delve Homepage V24 — Resume Access
 
-GitHub/Netlify-ready website package with premium visual hierarchy, refined navigation, subtle motion, improved section transitions, stronger reel presentation, and responsive polish.
-
-The existing contact wording and form were intentionally preserved for a later revision.
+Updates:
+- Replaced the hero “Let’s Connect” button with “Broadcast Résumé.”
+- Added the 2026 broadcast résumé PDF at the website root.
+- Simplified the footer to the AD logo, roles line, résumé button, and copyright.
+- Preserved the existing contact section and all other website content.

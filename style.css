@@ -721,3 +721,23 @@ main>section:not(.hero)::before{
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   .reveal-ready{opacity:1;transform:none}
 }
+
+
+/* RESUME ACCESS + MINIMAL FOOTER — 2026.07.27-v24 */
+.resume-button{display:inline-flex;align-items:center;justify-content:center}
+.site-footer-minimal{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:20px;padding:64px 5% 30px;text-align:center;
+}
+.site-footer-minimal .footer-brand img{width:min(220px,62vw);height:auto}
+.footer-roles{
+  margin:0;color:#d7d4cd;font-size:clamp(.82rem,2vw,.98rem);
+  letter-spacing:.09em;text-transform:uppercase;line-height:1.7;
+}
+.footer-resume-button{min-width:210px}
+.site-footer-minimal .copyright{margin:12px 0 0;color:#9a9893;font-size:.78rem}
+@media(max-width:680px){
+  .site-footer-minimal{padding:52px 5% 26px;gap:17px}
+  .footer-roles{max-width:330px;font-size:.76rem;letter-spacing:.075em}
+  .footer-resume-button{width:min(100%,300px)}
+}
