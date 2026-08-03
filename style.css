@@ -741,3 +741,61 @@ main>section:not(.hero)::before{
   .footer-roles{max-width:330px;font-size:.76rem;letter-spacing:.075em}
   .footer-resume-button{width:min(100%,300px)}
 }
+
+/* YOUTUBE REEL + TWO-SPORT COVERAGE — 2026.08.03 */
+.youtube-reel{
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  aspect-ratio:16/9;
+  min-height:0;
+  margin-top:34px;
+  border:1px solid rgba(214,170,76,.32);
+  border-radius:24px;
+  background:#050505;
+  cursor:pointer;
+  box-shadow:0 24px 65px rgba(0,0,0,.34);
+}
+.youtube-reel img,
+.youtube-reel iframe{
+  display:block;
+  width:100%;
+  height:100%;
+  min-height:0;
+  border:0;
+  object-fit:cover;
+  object-position:center 24%;
+}
+.youtube-reel-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.68))}
+.youtube-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  display:grid;place-items:center;width:82px;height:58px;padding-left:5px;
+  border-radius:16px;background:#e4b54e;color:#111;font-size:1.6rem;
+  box-shadow:0 14px 34px rgba(0,0,0,.42);transition:transform .25s ease;
+}
+.youtube-reel:hover .youtube-play{transform:translate(-50%,-50%) scale(1.08)}
+.youtube-reel-copy{position:absolute;left:28px;bottom:24px;display:grid;gap:5px;text-shadow:0 2px 12px #000}
+.youtube-kicker,.coverage-type{color:var(--gold-soft);font-size:.76rem;font-weight:900;letter-spacing:1.8px;text-transform:uppercase}
+.youtube-reel-copy strong{font-size:clamp(1.25rem,3vw,2rem)}
+.broadcast-coverage{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.coverage-card{position:relative;min-height:300px;padding:34px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.035);overflow:hidden}
+.coverage-card h3{margin:10px 0 12px;font-size:clamp(1.45rem,2.2vw,2rem)}
+.coverage-card p:not(.coverage-type){max-width:540px;color:var(--muted);line-height:1.65}
+.coverage-button{margin-top:26px}
+.basketball-card::after{content:'◯';position:absolute;right:-35px;bottom:-95px;font-size:17rem;line-height:1;color:rgba(225,179,74,.07);pointer-events:none}
+.football-card{display:flex;align-items:flex-end;padding:0;background:#0f1115}
+.football-card-image{position:absolute;inset:-20px;background:
+  linear-gradient(rgba(8,10,13,.22),rgba(8,10,13,.82)),
+  repeating-linear-gradient(90deg,transparent 0 12%,rgba(255,255,255,.08) 12% 12.5%,transparent 12.5% 25%),
+  url('demo-reel-thumbnail.jpg?v=2026.08.03-youtube-basketball-football-v26-integrity') center 24%/cover no-repeat;
+  filter:blur(5px) saturate(.75);transform:scale(1.08)}
+.football-card::after{content:'🏈';position:absolute;right:26px;top:22px;font-size:3rem;filter:grayscale(1) sepia(1);opacity:.8}
+.football-card-content{position:relative;z-index:1;width:100%;padding:34px;background:linear-gradient(180deg,transparent,rgba(8,10,13,.96) 35%)}
+@media(max-width:760px){
+  .youtube-reel{border-radius:18px}
+  .youtube-play{width:68px;height:48px;border-radius:13px;font-size:1.3rem}
+  .youtube-reel-copy{left:18px;bottom:16px}
+  .broadcast-coverage{grid-template-columns:1fr}
+  .coverage-card{min-height:280px;padding:26px}
+  .football-card-content{padding:26px}
+}

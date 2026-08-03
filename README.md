@@ -1,7 +1,13 @@
-Alvin Delve Homepage V24 — Resume Access
+# Alvin Delve Website — V26
+
+GitHub-ready website package built from the verified V24 master structure.
 
 Updates:
-- Replaced the hero “Let’s Connect” button with “Broadcast Résumé.”
-- Added the 2026 broadcast résumé PDF at the website root.
-- Simplified the footer to the AD logo, roles line, résumé button, and copyright.
-- Preserved the existing contact section and all other website content.
+- Basketball reel streams from YouTube: ITW9pPfqwUQ
+- Existing gray-suit thumbnail remains the featured basketball cover
+- Football radio coverage added: qnXBImW7UN4
+- Football card uses the gray-suit visual with a blurred football treatment
+- Basketball and Football are the only listed sports
+- Updated 2026 broadcast résumé retained
+- Tiny valid demo-reel.mp4 placeholder retained solely to preserve the original 16-file structure
+- Live website does not load the placeholder MP4; it uses the YouTube embed
