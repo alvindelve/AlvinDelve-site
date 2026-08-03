@@ -1,5 +1,5 @@
 {
-  "site_version": "2026.08.03-playable-reels-v28",
+  "site_version": "2026.08.03-streamlined-coverage-v29",
   "package_file_count": 16,
   "manifest_note": "FILE-INTEGRITY.json is excluded from its own hash list.",
   "files": [
@@ -35,8 +35,8 @@
     },
     {
       "file": "index.html",
-      "sha256": "d544fe65b5426eeb81cc86fd29702af452c681c22092cd993019d21dc6f86991",
-      "bytes": 14193
+      "sha256": "629eb2e2f40627342d08c81e2fe2b4422536ae10e3750afdeac072f3319a4941",
+      "bytes": 13854
     },
     {
       "file": "meet-alvin.png",
@@ -50,13 +50,13 @@
     },
     {
       "file": "README.md",
-      "sha256": "c4369276d0ee90bb3b9c1d57e22b0407ab6bdc070f4ae24ebcb061dd80087878",
-      "bytes": 668
+      "sha256": "4099f61fdaa2cab334e5936f370b0e7ba5a0f471c9d7d19fb7efb4c98d000ae4",
+      "bytes": 674
     },
     {
       "file": "SITE-VERSION.txt",
-      "sha256": "381eebe513e4225a4bd0b2730ff1117bce6d5355c44f2c3d262343912eeef56e",
-      "bytes": 30
+      "sha256": "52fa36b45699f52565f5db54154a5ec30bea67fc2e07912b98b638717c5db138",
+      "bytes": 36
     },
     {
       "file": "style.css",

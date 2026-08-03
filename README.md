@@ -12,4 +12,4 @@ Updates:
 - Tiny valid demo-reel.mp4 placeholder retained solely to preserve the original 16-file structure
 - Live website does not load the placeholder MP4; it uses the YouTube embed
 
-Version: 2026.08.03-playable-reels-v28
+Version: 2026.08.03-streamlined-coverage-v29
