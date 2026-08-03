@@ -1,12 +1,12 @@
 {
-  "site_version": "2026.08.03-youtube-basketball-football-v26-integrity",
+  "site_version": "2026.08.03-playable-reels-v28",
   "package_file_count": 16,
   "manifest_note": "FILE-INTEGRITY.json is excluded from its own hash list.",
   "files": [
     {
       "file": "Alvin-Delve-Broadcast-Resume-2026.pdf",
-      "sha256": "8bbbc145b26c38e634cdfc01dbf98cfeb81c399708a8df8b7235f25c3c725fad",
-      "bytes": 24675
+      "sha256": "1b9fec4d9336cb261681e566d1f775102b3d49c7c80352dd70f2203cc9ea4898",
+      "bytes": 34510
     },
     {
       "file": "alvin-delve-logo.png",
@@ -35,8 +35,8 @@
     },
     {
       "file": "index.html",
-      "sha256": "03a8a96c78d4d6e5a3076d83272f2efa79be3530bcf5150a2efc138e4d012651",
-      "bytes": 14455
+      "sha256": "d544fe65b5426eeb81cc86fd29702af452c681c22092cd993019d21dc6f86991",
+      "bytes": 14193
     },
     {
       "file": "meet-alvin.png",
@@ -50,13 +50,13 @@
     },
     {
       "file": "README.md",
-      "sha256": "d22d8da35c74bf65f21f0e33d3acfdf75b9a8f58c238bf5933e83d29f27e66f5",
-      "bytes": 628
+      "sha256": "c4369276d0ee90bb3b9c1d57e22b0407ab6bdc070f4ae24ebcb061dd80087878",
+      "bytes": 668
     },
     {
       "file": "SITE-VERSION.txt",
-      "sha256": "110ab91e0e67407c425df4570f43ba127a2b77e263d473520c1841a60df6202a",
-      "bytes": 64
+      "sha256": "381eebe513e4225a4bd0b2730ff1117bce6d5355c44f2c3d262343912eeef56e",
+      "bytes": 30
     },
     {
       "file": "style.css",
